@@ -6,6 +6,7 @@ public class Calculator {
 			return 0;
 		}
 		else{
+			text.replaceAll("\n", ",");
 			String numList[] = splitNumbers(text, ",");
 			return sum(numList);
 		}
